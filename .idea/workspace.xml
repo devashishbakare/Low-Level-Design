@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e29505c-0131-4a3d-8af6-69d8fae10e4e" name="Changes" comment="Added some concept of OOPS to quick start">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/All In One - Low Level Design.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/Encapsulation/AccountDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/Encapsulation/Theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/inheritance/single/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/inheritance/single/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/inheritance/single/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Eft0QRg57D5gG4sjxG8vNAJYvD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e29505c-0131-4a3d-8af6-69d8fae10e4e" name="Changes" comment="" />
+      <created>1662998248589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662998248589</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added some concept of OOPS to quick start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some concept of OOPS to quick start" />
+  </component>
+</project>

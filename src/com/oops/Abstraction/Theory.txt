@@ -1,0 +1,44 @@
+Read Article here : https://www.geeksforgeeks.org/abstraction-in-java-2/
+
+Data abtraction
+
+- It is nothing but essential details are displayed to the user and non-essential units are not displayed to the user.
+- Ex: A car is viewed as a car rather than its individual components.
+- Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details.
+- ex - A man driving a car and he don't know the internal machanism of car.
+
+In java,
+Abstraction is achieved by interfaces and abstract classes. We can achieve 100% abstraction using interfaces.
+
+
+Abstract classes and Abstract methods
+
+    - An abstract class is a class that is declared with an abstract keyword.
+      Eg : abstract class Shape{}
+
+    - An abstract method is a method that is declared without implementation.
+      Eg :  public abstract void animalSound();
+
+    - A method-defined abstract must always be redefined in the subclass, thus making overriding compulsory
+
+    - An abstract class may or may not have all abstract methods. Some of them can be concrete methods(Noramal method)
+
+    - we cannot create a abstract method normal class, in order to use we have to declared that class as abstract
+
+    - abstract class don't have the object so, new keyword word has no use
+
+    - and yes constructor is allowed in abstract classes
+
+When to use abstract classes?
+
+If there is situation where you have fixed base so we make them a abstract and we know other subclass has to implement the abstract methods
+depending on there need
+
+Ex : you have shape class you need to return the area give shape let say you have circle and Rectangle, so you make shape class as abstract
+     and we create two subclass circle and rectanlge and we computer the area of shape according to the need.
+
+
+
+
+
+
