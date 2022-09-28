@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e29505c-0131-4a3d-8af6-69d8fae10e4e" name="Changes" comment="Added some concept of OOPS to quick start">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/All In One - Low Level Design.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/Abstraction/Theory.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/Encapsulation/AccountDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/Encapsulation/Theory.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/inheritance/single/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/inheritance/single/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oops/inheritance/single/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oops/inheritance/single/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oops/inheritance/single/Parent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
