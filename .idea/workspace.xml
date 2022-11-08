@@ -8,9 +8,13 @@
     <list default="true" id="7e29505c-0131-4a3d-8af6-69d8fae10e4e" name="Changes" comment="Added some concept of OOPS to quick start" />
 =======
     <list default="true" id="7e29505c-0131-4a3d-8af6-69d8fae10e4e" name="Changes" comment="Added some concept of OOPS to quick start">
-      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/BuilderPattern/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/BuilderPattern/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/BuilderPattern/Theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/DecoratorPattern/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/DecoratorPattern/BurgerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/DecoratorPattern/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/DecoratorPattern/ExtraaCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/DecoratorPattern/TandooriBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/DecoratorPattern/ZingerBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DesignPattern/DecoratorPattern/extraMeyo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
 >>>>>>> 8f0d093 (added oops pillars with the exmaple)
@@ -57,7 +61,7 @@
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.com.DesignPattern.DecoratorPattern.Driver">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DesignPattern.BuilderPattern.Driver" />
       <module name="All In One - Low Level Design" />
@@ -84,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.DesignPattern.DecoratorPattern.Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DesignPattern.DecoratorPattern.Driver" />
+      <module name="All In One - Low Level Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DesignPattern.DecoratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.DesignPattern.DecoratorPattern.Driver" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.Flipkart" />
       </list>
