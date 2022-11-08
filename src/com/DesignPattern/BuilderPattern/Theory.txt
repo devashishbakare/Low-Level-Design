@@ -1,0 +1,29 @@
+
+What is the problem? why we need this builder pattern?
+
+Problem - Backward Compatibility
+
+-I(Team A) write one class and that according to requirement.
+-Created class like ->
+    Data members, some function/method and then set of parameterized constructor.
+-And now team B is adding some requirement in my code, and they want to add some additional requirement
+-so they need to update the data-member and constructor right?
+-what if, other team wanted to use your code and they also wanted to update some things.
+In this kind of situation they should have to update every time, this problem is called as
+"Backward Compatibility"
+
+How can we solve this kind of problem?
+So we can create/write a code such way that, anyone can be update the code as per the requirement.
+
+But how can we do that?
+so we need to write soooo many constructors to make changes. why not we create a dammy class that can be
+same as this class and on this class we need to make the changes and then we can pass this object to that class construcore then they have to just need to assing the vaues
+
+but where should we create the class?
+inside tha class. but how can we do that as well?
+we can create the static class and use the same entity that main class has.
+Now team 2 just need to make the changes in static inner class and need to pass inner class object to the outer class(main class)
+so can assign the value.
+see tha code for more information.
+
+
