@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7e29505c-0131-4a3d-8af6-69d8fae10e4e" name="Changes" comment="Added some concept of OOPS to quick start" />
+=======
+    <list default="true" id="7e29505c-0131-4a3d-8af6-69d8fae10e4e" name="Changes" comment="Added some concept of OOPS to quick start">
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/Heirarchical/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/Heirarchical/Flipkart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/Heirarchical/Intern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/Heirarchical/SDE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/multilevel/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/multilevel/BabyDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/multilevel/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/multilevel/TestInheritance2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Inheritance/single/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/interfaces/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/interfaces/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/interfaces/LarningInterace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oops/interfaces/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oops/inheritance/single/Child.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oops/inheritance/single/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oops/inheritance/single/Test.java" beforeDir="false" />
+    </list>
+>>>>>>> 8f0d093 (added oops pillars with the exmaple)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +53,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -38,6 +61,36 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/dev/Low-Level-Design",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Flipkart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Inheritance.Heirarchical.Flipkart" />
+      <module name="All In One - Low Level Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Inheritance.Heirarchical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Flipkart" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> 8f0d093 (added oops pillars with the exmaple)
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
