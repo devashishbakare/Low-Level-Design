@@ -1,0 +1,21 @@
+Let's consider a scenario
+-Suppose we are building a cricket app called (clickbuzz) that notifies viewers about the information such as current cricket's score.
+-score like, run rate etc.
+-Suppose we want to display CurrentScoreDisplay and AverageScoreDisplay.
+-CricketData(Live score tracker) has all the data (runs, bowls etc.) and whenever data changes we should display updated result.
+
+simple words for understanding :
+
+-so we have one subject(live score tracker)
+-that notify to those who want their score.
+-we will tell someone to, go and tell them and this is the current score now.
+-so one can go and update the result in clickbuzz app.
+
+
+implementation-
+
+subject-(live score tracker)- Has its class
+-subject will tell, to one person, who will be person?
+-A interface called observer.
+-then he will tell clickbuzz that this is updated score
+-so now we want to display the average score and current score so, we created classes from them as well.

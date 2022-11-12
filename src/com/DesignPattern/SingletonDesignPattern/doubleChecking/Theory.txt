@@ -1,0 +1,26 @@
+what's double checking?
+
+Before directly jumping toward that, lets understand some concepts.
+
+Multithreading-
+In simple word, one recourse can be access by multiple tread, at same time, called as the multithreading.
+
+We want to create only one object then in singleton pattern, so there might be possible.
+client/anyone want's to access object using the multi-threading concepts.
+then multi-threads, will try to create the object, so our code will fail to do that.
+
+How to use multi-threading in code? I don't know about that?
+okay, so let's understand another concept then.
+
+Read below article to know more :
+https://www.javatpoint.com/java-executorservice
+
+Basically this is interface which allows us to execute tasks on threads asynchronously.
+Asynchronously- nothing but multiple thing at one time. thread will not wait to anther thread to complete its task.
+It also provides the facility to queue up tasks until there is a free thread available. keep going....
+
+why don't we make this our method is synchronised then?
+yes, we can.
+but we want to stop making the thread to create multiple object, right, so making method synchronised, does make sense.
+so, we will create synchronised block, so that we can stop multithreading on object creating only.
+

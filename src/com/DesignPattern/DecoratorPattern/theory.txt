@@ -1,0 +1,30 @@
+ - why decoration word is being used?
+
+yes, we are decorating the class, not by use, by the choices of the customers.
+
+what kind of choices?
+
+lets, take the example,
+-you went to burgerhouse, yesss.
+-then you order the tandoori burger(which is my favorite)
+-now accounter asked some question before making final bill.
+question like?
+-want to add extra cheeeeese??
+-watn to add extra meyoneees??
+
+then you are answer those question and then final bill will be generated, yes....
+
+Hence you decorated the you burger, according to your choices.
+
+
+- How is related to our Decorated pattern? and why we use like as pattern to this.
+ to answer that, we need to understand some example,
+ suppose you are designing a system that has to deal with the choices, you tend to think in observer pattern, it will save hell lot of time
+
+ Example like :
+ 1) Hotel management system -base price is fixed, and final bill will come up with service that we opted.
+ 2) Any kind of ordering system. - pizza shop.
+
+ See example to understand better : )
+
+

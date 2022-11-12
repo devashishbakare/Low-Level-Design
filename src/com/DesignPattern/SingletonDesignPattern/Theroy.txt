@@ -1,0 +1,21 @@
+what is singleton design pattern in simple words?
+
+we want to create only one object/instance of the class. but why?
+
+what's the use of it?
+
+-lets, say you are setting at your home and watching a TV and in your family there are 5 members.
+-even though members are 5 you have only one TV/setup box right?
+-in this kind of scenario, you should use the singleton design pattern.
+
+but how this example related to this example?
+yes, right.
+you should have one one setup box, and only one member of your family wants to change the channel at once.
+so, now you should create only one object of Tv-set/Set-up-box object, that can access by the multiple member of your family at their convenient time.
+
+any other example?
+if there are one recourse, and there are multiple instances and trying to access same resources at same time(multi-treading) like wise, then you should only allow to access one at a time
+-logging
+-driver objects
+-caching and thread pool
+-database connections
