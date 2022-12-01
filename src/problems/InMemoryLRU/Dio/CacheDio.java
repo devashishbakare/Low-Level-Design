@@ -3,12 +3,18 @@ package problems.InMemoryLRU.Dio;
 import problems.InMemoryLRU.Constant.EvictionPolicy;
 import problems.InMemoryLRU.Models.Cache;
 
+import java.util.HashMap;
+import java.util.LinkedList;
+
 public class CacheDio {
 
+    private LinkedList<Object> dataStore;
+    private HashMap<Object, Object> cacheStore;
     public static CacheDio cacheInstance = null;
 
     private CacheDio(){
-
+        dataStore = new LinkedList<>();
+        cacheStore = new HashMap<>();
     }
     //In dio layer we write out actual logic for the functionality;
 
@@ -29,17 +35,17 @@ public class CacheDio {
     // put the date to cache
     public boolean insertData(Object key, Object value){
 
-        if(cache.getDataStore().size() == cache.getSize()){
+        if(dataStore.size() == cache.getSize()){
             System.out.println("cache is full, using LRU Eviction Policy");
-            Object getKey = cache.getDataStore().getLast();
-            cache.getDataStore().remove(getKey);
-            cache.getCacheStore().remove(getKey);
-            cache.getDataStore().addFirst(key);
-            cache.getCacheStore().put(key, value);
+            Object getKey = dataStore.getLast();
+            dataStore.remove(getKey);
+            cacheStore.remove(getKey);
+            dataStore.addFirst(key);
+            cacheStore.put(key, value);
             return true;
         }else{
-            cache.getDataStore().addFirst(key);
-            cache.getCacheStore().put(key, value);
+            dataStore.addFirst(key);
+            cacheStore.put(key, value);
         }
 
         return false;
@@ -48,8 +54,8 @@ public class CacheDio {
     // get data from the cache
     public Object getData(Object obj){
 
-        if(cache.getCacheStore().containsKey(obj) == true) {
-            return cache.getCacheStore().get(obj);
+        if(cacheStore.containsKey(obj) == true) {
+            return cacheStore.get(obj);
         }else{
             System.out.println("data you are trying to access, are not present.");
             return null;
@@ -59,9 +65,9 @@ public class CacheDio {
     // delete date from the cache
     public boolean deleteData(Object obj) {
 
-        if(cache.getCacheStore().containsKey(obj) == true){
-            cache.getDataStore().remove(obj);
-            cache.getCacheStore().remove(obj);
+        if(cacheStore.containsKey(obj) == true){
+            dataStore.remove(obj);
+            cacheStore.remove(obj);
             System.out.println("object has been deleted successfully");
             return true;
         }else{
@@ -74,13 +80,16 @@ public class CacheDio {
     // clear the data into cache
     public boolean clearData(){
 
-        cache.getDataStore().clear();
-        cache.getCacheStore().clear();
+        dataStore.clear();
+        cacheStore.clear();
         System.out.println("cache has been clear successfully");
 
         return true;
     }
 
+    public int getSize(){
+        return cacheStore.size();
+    }
 
 
 }

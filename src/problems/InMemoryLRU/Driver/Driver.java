@@ -21,11 +21,11 @@ public class Driver {
 
         //adding extra than size, deleting deva bakare
         cacheService.insetData("Shriram", "bakare");
-        System.out.println(cache.getCacheStore().size());
+        System.out.println(cacheService.size());
 
         //deleting data from cache
         cacheService.deleteData("Shriram");
-        System.out.println(cache.getCacheStore().size());
+        System.out.println(cacheService.size());
 
         //getting data from Cache
         System.out.println(cacheService.getData("kailas"));
@@ -34,7 +34,7 @@ public class Driver {
         System.out.println(cacheService.getData("deva"));
 
         cacheService.clearData();
-        System.out.println(cache.getCacheStore().size());
+        System.out.println(cacheService.size());
 
         //output
         /*

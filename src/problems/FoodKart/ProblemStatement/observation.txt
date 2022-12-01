@@ -1,0 +1,56 @@
+From the requirement we can easily see,
+
+Models should be
+    -user
+        -id
+        -name
+        -phone Number
+        -gender
+        -pincode
+        -List<Restaurant>
+        -List<Order>
+
+    -restaurant
+        -id
+        -name
+        -item
+        -available quantity
+        -pincode
+        -List<Reviews>
+        -OverallRatting
+
+    -review
+        -id
+        -rating
+        -comment
+
+    -order
+         -id
+         -userId
+         -restraid
+         -orderId
+         -price
+         -quantity
+
+     IdGenerator
+        -id
+
+
+Enum For Gender-> male, female, Other
+
+Services
+
+    -user service
+        -Register user
+        -login user
+        -order History
+
+    -restaurant service
+        -Register restaurant
+        -update quantity
+        -Restaurant review
+        -show Restaurant
+
+    -order service
+        -Place order
+

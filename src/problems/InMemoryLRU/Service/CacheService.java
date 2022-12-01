@@ -8,6 +8,7 @@ import javax.sql.rowset.CachedRowSet;
 
 public class CacheService {
 
+
     private static CacheService cacheServiceInstance = null;
 
     private CacheService(){
@@ -43,6 +44,10 @@ public class CacheService {
 
     public boolean clearData(){
         return cacheDio.clearData();
+    }
+
+    public int size(){
+        return cacheDio.getSize();
     }
 
 }
