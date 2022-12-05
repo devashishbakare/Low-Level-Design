@@ -1,0 +1,46 @@
+There are some observation which can be made by just reading the problem statement
+
+models will be
+
+    User
+       -id
+       -name
+       -phoneNumber
+       -location
+
+    As personalise user experience, we can store the matches as well
+    -List<Matches> - user who linked you
+
+    you also linked someone
+    List<User> -> list of people, that you linked
+
+    Location(class)
+    -x coordinate
+    -y coordinate
+
+    Enum
+        Gender -> male, female, other
+        ActionType -> linked, Ignored
+
+    Match(Class) -> both get Matched
+    -user A
+    -user B
+    -date-created
+
+    IdGenerator(class)
+    -getId();
+
+    Services
+    - UserService
+        -create Account
+        -delete Account;
+
+    MatchService
+        -potential match
+        -linked
+        -ignore
+        -show matches
+        -show all matches
+
+
+
